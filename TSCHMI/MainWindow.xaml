@@ -15,6 +15,9 @@
             <ColumnDefinition Width="3*" />
             <ColumnDefinition Width="1*" MinWidth="150" MaxWidth="200"/>
         </Grid.ColumnDefinitions>
+
+        <Canvas Name="Canvas" Grid.Column="0"/>
+
         <Grid Name="Tools" Grid.Column="1" Background="WhiteSmoke">
             <Grid.RowDefinitions>
                 <RowDefinition Height="8*"/>
